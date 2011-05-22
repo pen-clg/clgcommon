@@ -8,18 +8,9 @@
 
 #define CLG_PATH_MAX 255
 
-typedef int8_t   s8;
-typedef uint8_t  u8;
-typedef int16_t  s16;
-typedef uint16_t u16;
-typedef int32_t  s32;
-typedef uint32_t u32;
-typedef int64_t  s64;
-typedef uint64_t u64;
-
 typedef unsigned char ClgByte;
-typedef u32           ClgDword;
-typedef u16           ClgWord;
+typedef uint32_t      ClgDword;
+typedef uint16_t      ClgWord;
 
 typedef uintptr_t     ClgUID;
 typedef char*         ClgStr;
